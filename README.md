@@ -38,7 +38,7 @@ O propósito da aplicação é fornecer uma SPA estilo Pokédex para que os usu�
     Por ultimo foi feito o desafio de um botão com filtro por tipo de pokemon, onde foi criado a pasta AppInner com a função AppInner para puxar todos os filtros selecionados dos pokemons.
 
 
-• Passo a passo dos comandos para que possamos rodar o seu projeto no nosso computador:
+• Passo a passo dos comandos para que possa rodar o seu projeto no nosso computador:
     
     Inicializar o terminal e digitar os seguintes comandos: 
 
