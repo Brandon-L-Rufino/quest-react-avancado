@@ -1,0 +1,93 @@
+:root {
+  --main-bg-color: #ffffff;
+  --card-bg-color: #e0e0e0;
+  --card-border-color: #ccc;
+  --card-shadow-color: rgba(0, 0, 0, 0.1);
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--main-bg-color);
+}
+
+.card-pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card-pokemon {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  box-shadow: 0 4px 8px var(--card-shadow-color);
+  border-radius: 8px;
+  padding: 16px;
+  width: calc(33.333% - 32px); 
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pokemon-link {
+  text-decoration: none; 
+  color: #000000;
+  cursor: pointer; 
+}
+
+.pokemon-link:hover {
+  text-decoration: underline;
+}
+
+.pokemon-name {
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.pokemon-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.pokemon-type {
+    text-transform: uppercase;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+} 
+.btn-container .btn-theme {
+  border: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-container .btn-type-filter {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 30px ;
+  background-color: #E3350D;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.container-view-more {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.btn-view-more {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: #E3350D;
+  color: #ffffff;
+  cursor: pointer;
+}
